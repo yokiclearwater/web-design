@@ -1,0 +1,71 @@
+
+:root {
+    --burnt-umber: #8c271eff;
+    --grullo: #aba194ff;
+    --light-gray: #cfcbcaff;
+    --gainsboro: #d8dddeff;
+    --light-cyan: #d9f7faff;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.welcome {
+    background: var(--light-cyan);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.welcome span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-row {
+    /* border: 1px solid blue; */
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.chart-items {
+    background-color: white;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+.chart-items span {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: auto;
+}
+
+@media (max-width: 1400px) {
+    .chart-row {
+        grid-template-columns: auto;
+    }
+
+    .chart-row {
+        padding: 1rem;
+    }
+
+    .chart-items {
+        padding: 0.5rem;
+    }
+
+    .chart-items span {
+        font-size: 1rem;
+    }
+}

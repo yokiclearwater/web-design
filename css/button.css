@@ -1,0 +1,40 @@
+
+:root {
+    --burnt-umber: #8c271eff;
+    --grullo: #aba194ff;
+    --light-gray: #cfcbcaff;
+    --gainsboro: #d8dddeff;
+    --light-cyan: #d9f7faff;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex .column {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background: var(--gainsboro);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flex .column span {
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.flex .column .button-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+    .flex .column .button-flex {
+        flex-direction: column;
+    }
+}

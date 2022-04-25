@@ -1,0 +1,117 @@
+
+:root {
+    --burnt-umber: #8c271eff;
+    --grullo: #aba194ff;
+    --light-gray: #cfcbcaff;
+    --gainsboro: #d8dddeff;
+    --light-cyan: #d9f7faff;
+}
+
+
+.card-container {
+    padding: 1rem;
+    display: grid;
+    width: 95%;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin: auto;
+    gap: 1rem;
+}
+
+.card-container .card {
+    /* border: 1px solid blue; */
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+    /* width: 30%; */
+}
+
+.card-container .card .desc, .card-container .card .title {
+    padding: 1rem;
+} 
+
+.card-container .card .card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-container .card img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-container .card .button {
+    padding: 2rem;
+}
+
+@media (max-width: 1300px) {
+    .card-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-container {
+        grid-template-columns: auto;
+    }
+}
+
+.button-53 {
+  background-color: var(--burnt-umber);
+  border: 0 solid var(--light-gray);
+  box-sizing: border-box;
+  color: var(--light-gray);
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none var(--light-gray) solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid var(--grullo);
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+

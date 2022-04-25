@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxs-ghost' ></i>
+      <span class="logo_name">Admin</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="index.html">Dashboard</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Elements</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Elements</a></li>
+          <li><a href="buttons.html">Button</a></li>
+          <li><a href="icons.html">Icons</a></li>
+          <li><a href="cards.html">Card Views</a></li>
+          <li><a href="navigation.html">Navigation</a></li>
+          <li><a href="footer.html">Footers</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Forms</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Forms</a></li>
+          <li><a href="sign-up.html">Sign Up</a></li>
+          <li><a href="sign-in.html">Sign In</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="tables.html">
+          <i class='bx bx-table'></i>
+          <span class="link_name">Tables</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="tables.html">Tables</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="animation.html">
+          <i class='bx bxl-play-store' ></i>
+          <span class="link_name">Animation</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="animation.html">Animation</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <!--<img src="image/profile.jpg" alt="profileImg">-->
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Administrator</div>
+        <div class="job">Web Desginer</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+        <i class='bx bx-menu' ></i>
+      <span class="text">Tables</span>
+    </div>
+    <div class="body">
+        <div class="table1">
+            <table class="fl-table">
+                <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                    <th>Header 4</th>
+                    <th>Header 5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 1</td>
+                    <td>Content 1</td>
+                    <td>Content 1</td>
+                    <td>Content 1</td>
+                </tr>
+                <tr>
+                    <td>Content 2</td>
+                    <td>Content 2</td>
+                    <td>Content 2</td>
+                    <td>Content 2</td>
+                    <td>Content 2</td>
+                </tr>
+                <tr>
+                    <td>Content 3</td>
+                    <td>Content 3</td>
+                    <td>Content 3</td>
+                    <td>Content 3</td>
+                    <td>Content 3</td>
+                </tr>
+                <tr>
+                    <td>Content 4</td>
+                    <td>Content 4</td>
+                    <td>Content 4</td>
+                    <td>Content 4</td>
+                    <td>Content 4</td>
+                </tr>
+                <tr>
+                    <td>Content 5</td>
+                    <td>Content 5</td>
+                    <td>Content 5</td>
+                    <td>Content 5</td>
+                    <td>Content 5</td>
+                </tr>
+                <tr>
+                    <td>Content 6</td>
+                    <td>Content 6</td>
+                    <td>Content 6</td>
+                    <td>Content 6</td>
+                    <td>Content 6</td>
+                </tr>
+                <tr>
+                    <td>Content 7</td>
+                    <td>Content 7</td>
+                    <td>Content 7</td>
+                    <td>Content 7</td>
+                    <td>Content 7</td>
+                </tr>
+                <tr>
+                    <td>Content 8</td>
+                    <td>Content 8</td>
+                    <td>Content 8</td>
+                    <td>Content 8</td>
+                    <td>Content 8</td>
+                </tr>
+                <tr>
+                    <td>Content 9</td>
+                    <td>Content 9</td>
+                    <td>Content 9</td>
+                    <td>Content 9</td>
+                    <td>Content 9</td>
+                </tr>
+                <tr>
+                    <td>Content 10</td>
+                    <td>Content 10</td>
+                    <td>Content 10</td>
+                    <td>Content 10</td>
+                    <td>Content 10</td>
+                </tr>
+                </tbody><tbody>
+            </tbody></table>
+        </div>
+        <div class="table2">
+            <div class="pricing-box text-center">
+                <h5>Free</h5>
+                <p class="price"><sup>$</sup>0<sub>/mo</sub></p>
+                <ul class="features-list">
+                    <li><strong>1</strong> Project</li>
+                    <li><strong>5</strong> Team Members</li>
+                    <li><strong>50</strong> Personal Projects</li>
+                    <li><strong>5,000</strong> Messages</li>
+                </ul>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        
+            <div class="pricing-box pricing-box-bg-image text-center">
+                <h5>Premium</h5>
+                <p class="price"><sup>$</sup>39<sub>/mo</sub></p>
+                <ul class="features-list">
+                    <li><strong>5</strong> Project</li>
+                    <li><strong>20</strong> Team Members</li>
+                    <li><strong>100</strong> Personal Projects</li>
+                    <li><strong>15,000</strong> Messages</li>
+                </ul>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        
+            <div class="pricing-box text-center">
+                <h5>Platinum</h5>
+                <p class="price"><sup>$</sup>89<sub>/mo</sub></p>
+                <ul class="features-list">
+                    <li><strong>25</strong> Project</li>
+                    <li><strong>50</strong> Team Members</li>
+                    <li><strong>500</strong> Personal Projects</li>
+                    <li><strong>50,000</strong> Messages</li>
+                </ul>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </div>
+        <div class="table3">
+            <table class="container">
+                <thead>
+                  <tr>
+                    <th><h1>Sites</h1></th>
+                    <th><h1>Views</h1></th>
+                    <th><h1>Clicks</h1></th>
+                    <th><h1>Average</h1></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Google</td>
+                    <td>9518</td>
+                    <td>6369</td>
+                    <td>01:32:50</td>
+                  </tr>
+                  <tr>
+                    <td>Twitter</td>
+                    <td>7326</td>
+                    <td>10437</td>
+                    <td>00:51:22</td>
+                  </tr>
+                  <tr>
+                    <td>Amazon</td>
+                    <td>4162</td>
+                    <td>5327</td>
+                    <td>00:24:34</td>
+                  </tr>
+                  <tr>
+                    <td>LinkedIn</td>
+                    <td>3654</td>
+                    <td>2961</td>
+                    <td>00:12:10</td>
+                  </tr>
+                  <tr>
+                    <td>CodePen</td>
+                    <td>2002</td>
+                    <td>4135</td>
+                    <td>00:46:19</td>
+                  </tr>
+                  <tr>
+                    <td>GitHub</td>
+                    <td>4623</td>
+                    <td>3486</td>
+                    <td>00:31:52</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="table4">
+            <table>
+                <tr>
+                  <th class="table__heading">Player</th>
+                  <th class="table__heading">Seasons</th>
+                  <th class="table__heading">Points</th>
+                  <th class="table__heading">Jersey Number</th>
+                  <th class="table__heading">Teams</th>
+                  <th class="table__heading">Career</th>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__content" data-heading="Player">Kareem Abdul-Jabbar</td>
+                  <td class="table__content" data-heading="Seasons">20</td>
+                  <td class="table__content" data-heading="Points">36.387</td>
+                  <td class="table__content" data-heading="Jersey Number">33</td>
+                  <td class="table__content" data-heading="Teams">Bucks / Lakers</td>
+                  <td class="table__content" data-heading="Career">1969-1989</td>
+                </tr>
+                  <tr class="table__row">
+                  <td class="table__content" data-heading="Name">Karl Malone</td>
+                  <td class="table__content" data-heading="Seasons">19</td>
+                  <td class="table__content" data-heading="Points">36.928</td>
+                  <td class="table__content" data-heading="Jersey Number">32 / 11</td>
+                  <td class="table__content" data-heading="Teams">Jazz / Lakers</td>
+                  <td class="table__content" data-heading="Career">1985-2004</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__content" data-heading="Name">Kobe Bryant</td>
+                  <td class="table__content" data-heading="Seasons">20</td>
+                  <td class="table__content" data-heading="Points">33.643</td>
+                  <td class="table__content" data-heading="Jersey Number">8 / 24</td>
+                  <td class="table__content" data-heading="Teams">Lakers</td>
+                  <td class="table__content" data-heading="Career">1996-2016</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__content" data-heading="Name">Michael Jordan</td>
+                  <td class="table__content" data-heading="Seasons">15</td>
+                  <td class="table__content" data-heading="Points">32.292</td>
+                  <td class="table__content" data-heading="Jersey Number">23 / 45</td>
+                  <td class="table__content" data-heading="Teams">Bulls / Wizards</td>
+                  <td class="table__content" data-heading="Career">1984-2003</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__content" data-heading="Name">Wilt Chamberlain</td>
+                  <td class="table__content" data-heading="Seasons">14</td>
+                  <td class="table__content" data-heading="Points">31.419</td>
+                  <td class="table__content" data-heading="Jersey Number">13</td>
+                  <td class="table__content" data-heading="Teams">Warriors / 76ers / Lakers</td>
+                  <td class="table__content" data-heading="Career">1959-1973</td>
+                </tr>
+              </table>
+            </div>        
+    </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>
