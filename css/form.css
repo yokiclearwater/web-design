@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
 
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
+    /* font-family: var(--bs-body-font-family); */
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
@@ -54,10 +59,6 @@ body {
     padding-left: var(--bs-gutter-x, 1.5rem);
     margin-right: auto;
     margin-left: auto;
-  }
-  
-  * {
-    font-family: Roboto;
   }
   
   .footer-distributed{
@@ -6600,7 +6601,7 @@ body {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: var(--bs-font-sans-serif);
+    /* font-family: var(--bs-font-sans-serif); */
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -6727,7 +6728,7 @@ body {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: var(--bs-font-sans-serif);
+    /* font-family: var(--bs-font-sans-serif); */
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -20127,7 +20128,7 @@ body {
   }
   
   .card .card-body {
-    font-family: "Open Sans";
+    /* font-family: "Open Sans"; */
     padding: 1.5rem;
   }
   
